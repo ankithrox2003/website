@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.home{
+    height: 100vh;
+    background: linear-gradient(-90deg, rgb(53, 211, 203) 65%, #ffffff 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background: rgb(53, 211, 203);
+    border-radius: 50%;
+    border: 25px solid #ffffff;
+}
+
+.home-image img{
+    bottom: 12px;
+    position: relative;
+    max-width: 450px;
+    border-radius: 50%;
+}
+
+.home-centent{
+    max-width: 600px;
+    color: #000000;
+    text-align: right;
+}
+
+.home-centent h1 {
+    font-size: 45px;
+    line-height: 1.2;
+
+}
+
+.home-centent h3 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: .000000000000001px #ffffff; 
+}
+
+.home-centent p {
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+
+.home-sci a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-sci a:hover{
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.cert{
+    margin-bottom: 2rem;
+}
+.cert h1{
+    text-align: center;
+    padding: 10px;
+}
+.cert .c1{
+    background-color: white;
+    width:400px;
+    height:200px;
+    padding:20px;
+    align-items: center;
+    margin-left: 5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+.cert .c1 img{
+    width:50px;
+    height: 50px;
+}
+.cert .c1 a{
+    font-size: large;
+    font-weight: bold;
+}
+.cert .c1 a:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+
